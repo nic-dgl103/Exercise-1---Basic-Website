@@ -20,17 +20,17 @@ Your repository also includes the assignment readme file. You don’t have to de
 
 In VS Code:
 * Read “Add files to your website folder” in the “VS Code Reference Guide”. In your local Assignment A repository, create a new file called index.html, a file called style.css and a folder called images. 
-* Read “Add skeleton code” in the “VS Code Reference Guide”. In VS Code, open index.html and add the HTML skeleton code. Add a comment in the head section of the html code including: the course code, section number, student name, and the assignment number. Example:
-`<!-- DGL 103 DLU1 - Claire Guiot - Assignment A -->`
+* Read “Add skeleton code” in the “VS Code Reference Guide”. In VS Code, open index.html and add the HTML skeleton code. Add a comment in the head section of the html code including: the term, course code, section number, student name, and the assignment letter. Example:
+`<!-- F22 DGL 103 DLU1 - Claire Guiot - Assignment A -->`
 * Reference the stylesheet by adding `<link rel="stylesheet" href="style.css">` in the head section of index.html
 * Change the page title to assignment A.
 * Add the following code where you believe it belongs:
 `<h1>Hello World</h1> <p>This is *your name* speaking.</p>`. Make sure you save the document. Note: In VS Code, if the file name in the tab at the top of the window has a white circle next to it then the file includes edits that have not been saved yet.
-* Check out what your web page looks like by opening index.html in a web browser: Right-click anywhere in the file > Open in Default Browser. I recommend making Google Chrome your default browser (https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop).
+* Check out what your web page looks like by opening index.html in a web browser: Right-click anywhere in the file > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet - see above). I recommend making Google Chrome your default browser (https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop).
 * Back in VS Code, change the colour of the HTML p element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there is an issue with the way you linked the CSS file to the HTML file.
 * Change the colour of the HTML H1 element to anything you like.
-* Now we’re going to include an image in your webpage. Add an image file to the images folder in your local repository. It can be any image you like but most popular browsers support: BMP, SVG, JPG, PNG and GIF image file extensions. Name the image with a filename that makes sense, for ex: smalldog.jpg
-* In index.html, in the body section below the paragraph content, add an image. For ex: `<img src="images/smalldog.jpg" width="600" alt=”Small Dog”>`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder. Note that the `<img>` tag is self-closing, it doesn’t need an end tag. Save and go back to your browser and refresh the page to see the edit. If you can’t see the image then the link might be broken, make sure that you’ve used the correct filename and path.
+* Now we’re going to include an image in your webpage. Add an image file to the images folder in your local repository. It can be any image you like but most popular browsers support: BMP, SVG, JPEG, JPG, PNG and GIF image file extensions. Name the image with a filename that makes sense, for ex: smalldog.jpg
+* In index.html, add the image below the paragraph content. For ex: `<img src="images/claire-profile.jpg" width="600" alt="Claire Guiot">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder. Note that the `<img>` tag is self-closing, it doesn’t need an end tag. Save and go back to your browser and refresh the page to see the edit. If you can’t see the image then the link might be broken, make sure that you’ve used the correct filename and path.
 * Commit your changes to your local repository - See the GitHub and GitHub Desktop Reference Guide.
 
 ### Step 3: Validate your work
