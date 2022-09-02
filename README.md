@@ -51,5 +51,7 @@ You can access the assignment submission tool by navigating to the week’s assi
     * Don’t forget to answer the questions and attach the screenshots of your final W3 HTML and CSS validation results.
 4. If you have been using a lab computer on campus to do your work with GitHub Desktop, remember to shutdown or restart the computer before you leave the room, so that other students won’t have access to your repositories.
 
+Note: After you have submitted this assignment we will do a group code review to help troubleshoot any issues that you ran into. 
+
 ## Deadlines
 Assignments must be submitted before the end of the week (before the next week’s class) but they will only be graded at the end of every unit. Late assignments will not be accepted and will receive an F. You can complete and submit a contract that allows you to extend the deadline for an assignment but you must email it to your instructor a minimum of 48 hrs before the deadline. Deadline extensions are only allowed for those unplanned, unexpected emergencies that life sometimes throws at us, and they will only be approved by your instructor if you follow the correct process. See the Course Info folder in BrightSpace for more info.
