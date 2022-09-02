@@ -44,7 +44,7 @@ If you get the green “Congratulations! No Error Found.” then take a screensh
 ### Step 4: Submit your work
 Complete the following steps from the GitHub and GitHub Desktop Reference Guide:
 1. Commit your changes if you’ve made changes since the last commit.
-2. Push your changes to GitHub.
+2. Push your changes to GitHub. Check out your remote repository in GitHub to make sure that it looks the same as your local repository.
 3. Submit your assignment in BrightSpace:
 You can access the assignment submission tool by navigating to the week’s assignment in the Content Area, or by clicking on Assignments in the main menu. 
     * Click on "Assignment A Submission" and follow the provided instructions. 
