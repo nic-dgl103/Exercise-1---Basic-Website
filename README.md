@@ -1,4 +1,4 @@
-# Basic web page
+# Exercise 1 - Basic web page
 This is your remote repository readme file. You are seeing this file because you have successfully accepted the assignment link and GitHub automatically created a remote repository for you.
 ## Objectives
 Create a basic folder structure for a website. Use HTML skeleton code to create a simple web page that includes a little content and a couple images. Apply an external CSS style to the content. Learn to troubleshoot code.
