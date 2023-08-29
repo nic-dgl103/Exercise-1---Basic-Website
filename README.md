@@ -7,7 +7,7 @@ At the minimum, a website is a repository (folder) that includes a file called *
 ### Step 1: Create a basic website
 1. Create the website structure:
     * Read “Add files to your website folder” in the VS Code Reference Guide. 
-    * In your local exercise repository, create a new file called *index.html*, a file called *style.css* and a folder called *images*. Notice that these names are all lowercase because that is best practice when naming files and folders. Your repository also includes the assignment readme file, you don’t have to delete the readme file -- it does no harm and wouldn’t be visible when visitors view the website through a browser, but know that the readme file wouldn’t be present in a real website’s folder.
+    * In your local exercise repository, create a new file called *index.html*, a file called *style.css* and a folder called *images*. Notice that these names are all lowercase because that is best practice when naming files and folders. Your repository also includes the assignment readme file and a gitignore file, you don’t have to delete these files -- they do no harm and wouldn’t be visible when visitors view the website through a browser.
 2. Prep your HTML page:
     * Read “Add skeleton code” in the VS Code Reference Guide. 
     * In VS Code, open *index.html* and add the HTML skeleton code. Add an HTML comment in the head element of the HTML code including: the term, the course code, your section number, your student name, and the name of the exercise. Example:
