@@ -14,7 +14,7 @@ At the minimum, a website is a repository (folder) that includes a file called *
 `<!-- F23 DGL 103 CVS1 - Jane Pordor - Basic Website Exercise -->`
     * Reference the stylesheet by adding `<link rel="stylesheet" href="style.css">` in the head element of *index.html*
     * Change the page title to 'Basic Website Exercise'.
-5. Add the page content to body element of the page:
+5. Add some content to the body element of the page:
     * Write a level 1 heading HTML element
     * Add the following questions below the level 1 heading and include your answers:
         * Who are you? Please write a short bio (you can include your github username instead of your full name if you are concerned about privacy. GitHub's servers are located in the USA.)
@@ -25,9 +25,9 @@ At the minimum, a website is a repository (folder) that includes a file called *
     * Format your questions and answers by wrapping them in level 2 heading HTML elements and paragraph HTML elements. 
     * Check out what your web page looks like by opening *index.html* in a web browser: 
         * Click File > Save.
-        * Right-click anywhere in the editor > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet). This is not a live preview, to see any changes that you make in VS Code, you need to save the file and then refresh the page in the browser for it to show your edits. I recommend making Google Chrome your default browser (https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop).
+        * Right-click anywhere in the editor > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet). This is not a live preview, to see any changes that you make in VS Code, you need to save the file and then refresh the page in the browser for it to show your edits. 
 6. Add an image to your webpage: 
-    * Add an image of your favourite place in the world to the images folder in your local repository. It can be any image you like but most popular browsers support: BMP, SVG, JPEG, JPG, PNG and GIF image file extensions. Name the image with a filename that makes sense, for ex: myfavouriteplace.jpg
+    * Add an image of your favourite place in the world to the images folder in your local repository. It can be any image you like but most popular file types for photos are JPEG, JPG, and PNG image file extensions. Name the image with a filename that makes sense, for ex: myfavouriteplace.jpg
     * In *index.html*, insert the image below the content. For ex: `<img src="images/myfavouriteplace.jpg" width="400" alt="Paris, my favourite place">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder. Note that the `<img>` element is self-closing, it doesn’t need an end tag. Save and go back to your browser and refresh the page to see the edit. If you can’t see the image then the link might be broken, make sure that you’ve used the correct filename and relative file path.
 5. Change the styling of the text:
     * Change the colour of the HTML paragraph element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there may be an issue with the way you linked the CSS file to the HTML file.
@@ -42,4 +42,4 @@ At the minimum, a website is a repository (folder) that includes a file called *
     * Go to https://validator.w3.org/#validate_by_upload. Choose your *index.html* file in your local repository and click the Check button. If there are no errors then you should see a green message that says “Document checking completed. No errors or warnings to show.” If you get an error message then troubleshoot your work, save and re-check it until you get the green message.
     * **Take a screenshot of your HTML validation results, you will need to submit it in Brightspace.**
 
-You have now completed your exercise but you still need to submit it in Brightspace. Make sure to follow the instructions in the How to Complete Your Exercises Guide.
+You have now completed your exercise but you still need to push your edits to GitHub and submit it in Brightspace. Make sure to follow the instructions in the How to Complete Your Exercises Guide.
