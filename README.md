@@ -14,7 +14,9 @@ At the minimum, a website is a repository (folder) that includes a file called *
 `<!-- F23 DGL 103 CVS1 - Jane Pordor - Basic Website Exercise -->`
     * Reference the stylesheet by adding `<link rel="stylesheet" href="style.css">` in the head element of *index.html*
     * Change the page title to 'Basic Website Exercise'.
-5. Add some content to the body element of the page:
+
+### Step 2: Add some content and style it
+1. Add some content to the body element of the page:
     * Write a level 1 heading HTML element
     * Add the following questions below the level 1 heading and include your answers:
         * Who are you? Please write a short bio (you can include your github username instead of your full name if you are concerned about privacy. GitHub's servers are located in the USA.)
@@ -26,14 +28,14 @@ At the minimum, a website is a repository (folder) that includes a file called *
     * Check out what your web page looks like by opening *index.html* in a web browser: 
         * Click File > Save.
         * Right-click anywhere in the editor > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet). This is not a live preview, to see any changes that you make in VS Code, you need to save the file and then refresh the page in the browser for it to show your edits. 
-6. Add an image to your webpage: 
+2. Add an image to your webpage: 
     * Add an image of your favourite place in the world to the images folder in your local repository. It can be any image you like but most popular file types for photos are JPEG, JPG, and PNG image file extensions. Name the image with a filename that makes sense, for ex: myfavouriteplace.jpg
     * In *index.html*, insert the image below the content. For ex: `<img src="images/myfavouriteplace.jpg" width="400" alt="Paris, my favourite place">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder. Note that the `<img>` element is self-closing, it doesn’t need an end tag. Save and go back to your browser and refresh the page to see the edit. If you can’t see the image then the link might be broken, make sure that you’ve used the correct filename and relative file path.
-5. Change the styling of the text:
+3. Change the styling of the text:
     * Change the colour of the HTML paragraph element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there may be an issue with the way you linked the CSS file to the HTML file.
     * Change the colour of the HTML level 1 heading element to any colour you like.
 
-### Step 2: Learn to troubleshoot errors
+### Step 3: Learn to troubleshoot errors
 1. Learn to use the HTMLHint extension:
     * The HTMLHint VS Code extension will automatically underline coding errors with a squiggly line. If the extension has detected errors, a number will appear next to a warning icon in the status bar at the bottom of the VS Code window (see VS Code Reference Guide for details). Click on the warning icon in the status bar to open the Problems Panel. 
     * Type this error in your HTML file: `<image`. The following error message should appear in the Problems Panel "Special characters must be escaped : [ < ]". This error tells you that the HTML element is missing a closing angled bracket. you can click on the error message to highlight the error in your code. 
