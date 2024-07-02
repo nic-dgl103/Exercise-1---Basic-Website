@@ -22,7 +22,7 @@ At the minimum, a website is a repository (folder) that includes a file called *
         * Is it your first time in post-secondary education? If no, what did you study?
         * Do you have any past experience of creating websites? If yes, please explain.
         * Do you know any coding languages? If yes, which ones?
-        * What are your goals for this course (or what you would like to learn in the course)? 
+        * What are your goals for this course (Some students need a high GPA to get their funding. Some students need a minimum of a C in DGL103 to get into courses such as DGL113 or DGL203. Some students may be interested in learning specific HTML/CSS topics ...)? 
     * Format your questions and answers by wrapping them in level 2 heading HTML elements and paragraph HTML elements. 
     * Check out what your web page looks like by opening *index.html* in a web browser: 
         * Click File > Save.
