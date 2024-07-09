@@ -1,4 +1,4 @@
-# Exercise - Basic Website
+# Exercise 1 - Basic Website
 
 ## Objectives
 Create a basic folder structure for a website. Use HTML skeleton code to create a simple web page that includes a little content and an image. Apply external CSS styles to the content. Learn to troubleshoot code.
