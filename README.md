@@ -34,12 +34,4 @@ At the minimum, a website is a repository (folder) that includes a file called *
     * Change the colour of the HTML paragraph element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there may be an issue with the way you linked the CSS file to the HTML file.
     * Change the colour of the HTML level 1 heading element to any colour you like.
 
-### Step 3: Learn to troubleshoot errors
-1. Learn to use the HTMLHint extension:
-    * The HTMLHint VS Code extension will automatically underline coding errors with a squiggly line. If the extension has detected errors, a number will appear next to a warning icon in the status bar at the bottom of the VS Code window (see VS Code Reference Guide for details). Click on the warning icon in the status bar to open the Problems Panel. 
-    * Try typing an error in your HTML file so that you can test the HTML HInt extension and see how it works.
-2. A more robust way to validate your HTML is using the official W3C Markup Validator: 
-    * Go to https://validator.w3.org/#validate_by_upload. Choose your *index.html* file in your local repository and click the Check button. If there are no errors then you should see a green message that says “Document checking completed. No errors or warnings to show.” If you get an error message then troubleshoot your work, save and re-check it until you get the green message.
-    * **Take a screenshot of your HTML validation results, you will need to submit it in Brightspace.**
-
 You have now completed your exercise but you still need to push your edits to GitHub and submit it in Brightspace. Make sure to follow the instructions in the How to Complete Your Exercises Guide.
