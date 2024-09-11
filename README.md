@@ -13,24 +13,64 @@ Detailed instructions for the tasks below are included in the References Guides 
 You are now completely set up and can complete the instructions in step 2 but you need to have done the week 1 reading to understand the exercise.
 
 ### Step 2: Create a website
-At the minimum, a website is a repository that includes a file called index.html (the website’s homepage), a file called style.css (where all the CSS is located), and a folder to store the images.
-Your repository also includes the assignment readme file. You don’t have to delete the readme file, it does no harm and wouldn’t be visible when visitors view the website through a browser, but know that the readme file wouldn’t be present in a real website’s folder.
+At the minimum, a website is a repository that includes a file called *index.html* (the website’s homepage), a file called *style.css* (where all the CSS is located), and a folder to store the images.
+Your repository also includes the assignment README file. You don’t have to delete the README file, it does no harm and wouldn’t be visible when visitors view the website through a browser, but know that the README file wouldn’t be present in a real website’s folder.
+
 By the end of this exercise, your webpage should similar to the image below.
 ![Image of sample webpage](exercise-example.png)
 
-1. Read “Add files to your website folder” in the VS Code Reference Guide. In your local exercise repository, create a new file called index.html, a file called style.css and a folder called images. 
-2. Read “Add skeleton code” in the “VS Code Reference Guide”. In VS Code, open index.html and add the HTML skeleton code. Add an HTML comment in the head section of the html code including: the term, course code, section number, student name, and the name of the exercise. Example:
-`<!-- W23 DGL 103 CVS1 - Claire Guiot - Basic Web Page Exercise -->`
-3. Reference the stylesheet by adding `<link rel="stylesheet" href="style.css">` in the head section of index.html
+1. Read “Add files to your website folder” in the VS Code Reference Guide. In your local exercise repository, create a new file called *index.html*, a file called *style.css* and a folder called *images*. 
+
+2. Read “Add skeleton code” in the “VS Code Reference Guide”. In VS Code, open *index.html* and add the HTML **skeleton code**. Add an HTML comment in the head section of the HTML code including: the term, course code, section number, student name, and the name of the exercise. 
+    ```html
+    <!-- W23 DGL 103 CVS1 - Claire Guiot - Basic Web Page Exercise -->
+    ```
+
+3. Add a **reference** to the stylesheet by adding the following to the head section of *index.html*
+    ```html
+    <link rel="stylesheet" href="style.css">
+    ```
+
 4. Change the page title to 'Basic Web Page Exercise'.
-5. Add the following code where you believe it belongs:
-`<h1>Hello World</h1> <p>This is *your name* speaking.</p>`. Make sure you save the document. Note: In VS Code, if the file name in the tab at the top of the window has a white circle next to it then the file includes edits that have not been saved yet.
-6. Check out what your web page looks like by opening index.html in a web browser: Right-click anywhere in the file > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet - see step 1 above). I recommend making Google Chrome your default browser (https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop).
-7. Back in VS Code, change the colour of the HTML p element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there is an issue with the way you linked the CSS file to the HTML file.
-8. Change the colour of the HTML H1 element to anything you like.
-9. Now we’re going to include an image in your webpage. Add an image file to the images folder in your local repository. It can be any image you like but most popular browsers support: BMP, SVG, JPEG, JPG, PNG and GIF image file extensions. Name the image with a filename that makes sense, for ex: smalldog.jpg
-10. In index.html, add the image below the paragraph element. For ex: `<img src="images/small-dog.jpg" width="400" alt="Small dog sleeping">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder. Note that the `<img>` element is self-closing, it doesn’t need an end tag. Save and go back to your browser and refresh the page to see the edit. If you can’t see the image then the link might be broken, make sure that you’ve used the correct filename and relative file path.
-11. Commit your changes to your local repository - See the GitHub and GitHub Desktop Reference Guide.
+
+5. Add the following code where you believe it belongs, then make sure to save!
+    ```html
+    <h1>Hello World</h1> 
+    <p>This is *your name* speaking.</p>
+    ```
+
+    > **Note**: In VS Code, if the file name in the tab at the top of the window has a white circle next to it then the file includes edits that have not been saved yet.
+
+6. Check out what your web page looks like by opening *index.html* in a web browser: Right-click anywhere in the file > Open in Default Browser (if you don't see this option then you haven't installed the Open in Browser VS Code extension yet - see step 1 above). I recommend [making Google Chrome your default browser](https://support.google.com/chrome/answer/95417?hl=en&co=GENIE.Platform%3DDesktop).
+
+7. Back in VS Code, change the colour of the HTML `<p>` element by adding the following to the *style.css* file:
+    ```css
+    p {color: orange;}
+    ```
+    Go back to your browser and refresh the page to see the edit. *If you can't see the change in colour in your browser then there is an issue with the way you linked the CSS file to the HTML file.*
+
+8. Change the colour of the HTML `<h1>` element to anything you like.
+
+9. Now we’re going to include an image in your webpage. Add an image file to the *images* folder in your local repository. It can be any image you like but most popular browsers support: BMP, SVG, JPEG, JPG, PNG and GIF image file extensions. Name the image with a filename that makes sense. For example, the image in the screen capture above might be called *smalldog.jpg*.
+
+10. In *index.html*, use the following code to add the image below the `<p>` element. Ensure the image file name in the `src` attribute and the image description in the `alt` attribute to match the file that you added to the *images* folder.     
+    ```html
+    <img src="images/small-dog.jpg" width="400" alt="Small dog sleeping">
+    ``` 
+
+    > **Note**: the `<img>` element is **self-closing**, it doesn’t need an **end tag**. 
+
+    > #### ADVANCED TECHNIQUE
+    > You can use the `<figure>` element in combination with `<img>` and `<figcaption>` elements if you would like to include a caption beneath your image (for example, if you would like to include an image attribution). To create a figure use the following as a template:
+    >```html
+    ><figure>
+    >   <img src="images/small-dog.jpg" width="400" alt="Small dog sleeping">
+    >   <figcaption>...</figcaption>
+    ></figure>
+
+11. Save and go back to your browser and refresh the page to see the edit. *If you can’t see the image then the link might be broken*, make sure that you’ve used the correct filename and relative file path.
+
+12. Commit your changes to your local repository. See the GitHub and GitHub Desktop Reference Guide for more information.
 
 ### Step 3: Learn to trouleshoot errors
 1. Using the HTMLHint extension
@@ -39,10 +79,10 @@ If you have installed the HTMLHint VS Code extension then any errors in the HTML
     * Type this error in your HTML file: `<image`. The following error message should appear in the Problems Panel "Special characters must be escaped : [ < ]". This error tells you that the HTML element is missing a closing angled bracket. Click on the error message to navigate to the error in the HTML. 
     * Type a closing angled bracket at the end of the HTML element. Notice that the error message has changed, it is now telling you that the `<image>` element is missing an end tag, yet image elements are self-closing. The syntax is wrong, the HTML for an image is `<img>`, not`<image>`, but the extension isn't smart enough to know that you wanted an image. While the HTMLHint extension can save you a lot of time by pointing out errors, it won't solve all your problems. It will take you some practice to be able to understand the error messages. 
 2. Another way to validate your HTML is by using the official W3C Markup Validator. 
-    * Go to https://validator.w3.org/#validate_by_upload. Choose your index.html file in your local repository and click the Check button. If there are no errors then you should see a green message that says “Document checking completed. No errors or warnings to show.” If you get an error message then troubleshoot your work until you get the green message
-    * Take a screenshot of your HTML validation results and save it in the images folder in your local repository.
-    * In index.html, add the screenshot image below the image from step 2. For ex: `<img src="images/validation-screenshot.png" width="600" alt="HTML Validation Screenshot">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the images folder.
-4. Just for fun, click and drag on the edge of your browser window to resize it and see what happens to the placement of the images when the browser window is too small for them to fit side-by-side.
+    * Go to https://validator.w3.org/#validate_by_upload. Choose your *index.html* file in your local repository and click the Check button. If there are no errors then you should see a green message that says “Document checking completed. No errors or warnings to show.” If you get an error message then troubleshoot your work until you get the green message
+    * Take a screenshot of your HTML validation results and save it in the *images* folder in your local repository.
+    * In *index.html*, add the screenshot image below the image from step 2. For ex: `<img src="images/validation-screenshot.png" width="600" alt="HTML Validation Screenshot">`. Change the image file name in the src attribute and the image description in the alt attribute to match the file that you added to the *images* folder.
+4. Just for fun, click and drag on the edge of your browser window to resize it and see what happens to the placement of the *images* when the browser window is too small for them to fit side-by-side.
 3. Commit your changes to your local repository - See the GitHub and GitHub Desktop Reference Guide.
 
 ### Step 4: Submit your work
