@@ -1,4 +1,4 @@
-# Practice Exercise - Basic Website
+# Exercise 1 - Basic Website
 
 ## Objectives
 
@@ -7,6 +7,8 @@ Create a basic folder structure for a website. Use HTML skeleton code to create 
 ## Instructions
 
 At the minimum, a website is a repository (folder) that includes a file called _index.html_ (the website’s homepage), a file called _style.css_ (where all the CSS is located), and a subfolder called _images_ to store the images.
+
+### PART 1
 
 ### Step 1: Create a basic website
 
@@ -40,24 +42,61 @@ At the minimum, a website is a repository (folder) that includes a file called _
    - Change the colour of the HTML paragraph element by adding `p {color: orange;}` to the style.css file. Go back to your browser and refresh the page to see the edit. If you can't see the change in colour in your browser then there may be an issue with the way you linked the CSS file to the HTML file.
    - Change the colour of the HTML level 1 heading element to any colour you like.
 
-### Step 3 - OPTIONAL: Add another page to your website
+### Step 3: Save your work in GitHub
+
+Make sure to follow the instructions in the How to Complete Your Exercises Guide. YOu don't need to submit your exercise in Brightspace until you've completed all the instructions.
+
+1. Commits your edits in Github Desktop
+2. Push your edits to GitHub.
+
+### PART 2 (best to complete these instructions after your second class)
+
+### Step 1: Add another page to your website
 
 1. Create a new file called _page2.html_
 2. Prep your HTML page:
    - Add the HTML skeleton code.
    - Link the page to the CSS file.
    - Change the page title in the head HTML element to 'Basic Website Exercise - Page 2'
-3. Write a level 1 heading HTML element and add a paragraph of content.
+3. Write a level 1 heading HTML element.
 4. Style the content.
 5. In _index.html_, add a link to page 2: <a href="page2.html">Visit page 2</a>
 6. In _page2.html_, add a link to the homepage: <a href="index.html">Visit home</a>
 7. Remember to save both pages then check out your website in the browser.
 
-### Step 4 - Submit your work
+### Step 2: Add structural elements to the content
+
+1. Code the structural organization of the content. You don't need to include all the structural elements but you should use at least 6 of them:
+
+   - Body
+   - Header
+   - Nav
+   - Main
+   - Section
+   - Article
+   - Aside
+   - Footer
+
+2. Add appropriate content to each structural element.
+3. Use the HTML elements we have learnt about so far to organize the content. Look them up in HTMLreference.io for details. Feel free to experiment using more HTML elements if you like:
+   - Headings (H1 to H6)
+   - Paragraph
+   - Strong
+   - Bold
+   - Italic
+   - Emphasis
+   - Special Characters
+   - Hyperlinks (including email links and same-page links)
+   - Unordered lists
+   - Ordered lists
+   - Description lists
+   - Image
+   - Div and span (you shouldn't need these elements as they carry no semantic meaning and are only used to define areas to which you want to apply styling)
+
+### Submit your work
 
 You have now completed your practice exercise but you still need to:
 
 1. Commits your edits in Github Desktop
 2. Push your edits to GitHub.
 3. Submit your practice exercise in Brightspace.
-   Make sure to follow the instructions in the How to Complete Your Exercises Guide. This exercise will not be graded.
