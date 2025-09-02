@@ -1,0 +1,22 @@
+name: Run Grading Tests
+
+on:
+  workflow_dispatch: # <-- means: only run when YOU trigger it manually
+
+jobs:
+  test:
+    runs-on: ubuntu-latest # GitHub gives you a free virtual computer
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18 # or Python, or whatever your tests use
+
+      - name: Install dependencies
+        run: npm install # change to pip install -r requirements.txt if Python
+
+      - name: Run tests
+        run: npm test # or python test_script.py
